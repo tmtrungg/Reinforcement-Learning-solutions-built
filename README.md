@@ -1,12 +1,30 @@
-# Reinforcement Learning solutions built
-## Projects overview
-In this repository, I'll approach some of the popular Reinforcement Learning (RL) problems, build the non-RL and RL solutions for each to compare the efficiency and time-consuming. The problems include:
+# Reinforcement Learning Solutions
 
-- Taxi problem (will be solved with "Random Policy solution" and "Q-learning" solution)
-- Cart Pole problem (will be solved in (will be solved with "Random Search solution" and "Q-learning" solution)
-- Mountain Car problem (will be solved in 2 different RL methods: "Q-learning" and "TD-learning")
+Implementations of classic RL algorithms applied to OpenAI Gym environments. Each problem is solved with both a baseline (non-RL) approach and RL methods, with performance comparisons.
 
-All the testing method and comparison is demonstrated in the JupiterNotebook files
+## Problems & Methods
 
-## My presentation of RL, all the mentioned problems and methods applied explanation (with code and efficiency comparison:
-https://youtu.be/kruxPuKM-DE
+| Environment | Baseline | RL Method | Notebook |
+|------------|----------|-----------|----------|
+| **Taxi-v3** | Random Policy | Q-Learning | [Taxi.ipynb](Taxi.ipynb) |
+| **CartPole-v1** | Random Search | Q-Learning | [CartPole.ipynb](CartPole.ipynb) |
+| **MountainCar-v0** | — | Q-Learning vs TD-Learning | [MountainCar.ipynb](MountainCar.ipynb) |
+
+## What's Inside
+
+Each notebook includes:
+- Environment setup and exploration
+- Baseline implementation for comparison
+- RL agent training with hyperparameter tuning
+- Reward curves and performance comparison
+- Analysis of convergence behavior
+
+## Tech Stack
+
+- **Python** — NumPy, Matplotlib
+- **OpenAI Gym** — simulation environments
+- **Jupyter Notebook** — interactive experiments
+
+## Presentation
+
+- [Full walkthrough: RL concepts, problems, methods, and code](https://youtu.be/kruxPuKM-DE)
